@@ -1,0 +1,14 @@
+.mainHeader {
+  background-color: #191919;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #979797;
+  padding: 28px 18px;
+}
+
+.hamburgerBtn,
+.cartBtn {
+  background: none;
+  border: none;
+}

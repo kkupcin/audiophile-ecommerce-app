@@ -1,0 +1,11 @@
+.featuredBox {
+  background-image: url("../assets/home/mobile/image-header.jpg");
+  color: #fff;
+}
+
+.featuredTextBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
