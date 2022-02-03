@@ -1,5 +1,7 @@
 .featuredBox {
   background-image: url("../assets/home/mobile/image-header.jpg");
+  background-position: bottom;
+  background-size: cover;
   color: #fff;
 }
 
@@ -8,4 +10,31 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 18px;
+  padding: 100px 24px;
+}
+
+.sectionTitle {
+  font-size: 14px;
+  letter-spacing: 10px;
+  opacity: 0.5;
+  text-transform: uppercase;
+}
+
+.productTitle {
+  text-transform: uppercase;
+  font-size: 36px;
+  letter-spacing: 1.29px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.productDesc {
+  opacity: 0.75;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  margin-bottom: 24px;
 }

@@ -1,11 +1,41 @@
 .button {
   text-transform: uppercase;
-  color: #fff;
   font-family: inherit;
   border: none;
-  background-color: #d87d4a;
   padding: 13px 28px;
   font-weight: 700;
   font-size: 13px;
   letter-spacing: 1px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.orange {
+  color: #fff;
+  background-color: #d87d4a;
+  border: none;
+}
+
+.orange:hover {
+  background-color: #fbaf85;
+}
+
+.black {
+  color: #fff;
+  background-color: #000;
+}
+
+.black:hover {
+  background-color: #4c4c4c;
+}
+
+.transparent {
+  color: #000;
+  background: transparent;
+  border: 1px solid #000;
+}
+
+.transparent:hover {
+  color: #fff;
+  background-color: #000;
 }

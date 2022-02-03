@@ -1,0 +1,33 @@
+.menuItemBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 85%;
+}
+
+.backgroundColorBox {
+  height: 165px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.backgroundContentBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(-25%);
+}
+
+.menuItemImg {
+  height: 150px;
+}
+
+.menuItemTitle {
+  text-transform: uppercase;
+  letter-spacing: 1.07px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: -10px;
+}

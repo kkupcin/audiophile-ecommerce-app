@@ -11,7 +11,7 @@ const Featured = () => {
           Experience natural, lifelike audio and exceptional build quality made
           for the passionate music enthusiast.
         </p>
-        <ButtonPrimary title="See product" />
+        <ButtonPrimary title="See product" color="orange" />
       </article>
     </section>
   );
