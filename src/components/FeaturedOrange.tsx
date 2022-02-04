@@ -13,11 +13,7 @@ const FeaturedOrange = () => {
         alt="Pattern for background"
         className={styles.pattern}
       />
-      <picture className={styles.featureImg}>
-        <source media="screen and (min-width:1200px)" srcSet={speakerDesktop} />
-        <source media="screen and (min-width:600px)" srcSet={speakerTablet} />
-        <img src={speakerMobile} alt="Speaker" />
-      </picture>
+      <img src={speakerMobile} alt="Speaker" className={styles.featureImg} />
       <h2 className={styles.featureTitle}>ZX9 Speaker</h2>
       <p className={styles.featureDesc}>
         Upgrade to premium speakers that are phenomenally built to deliver truly

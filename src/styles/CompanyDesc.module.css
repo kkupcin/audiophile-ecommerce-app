@@ -1,0 +1,42 @@
+.container {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 36px auto;
+  gap: 36px;
+}
+
+.featureImg {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.contentBox {
+  width: 85%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.featureTitle {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 38px;
+}
+
+.featureWord {
+  color: #d87d4a;
+}
+
+.featureDesc {
+  opacity: 0.5;
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: 500;
+}

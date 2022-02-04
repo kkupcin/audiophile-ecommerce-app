@@ -1,0 +1,26 @@
+.navList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 12px 24px;
+  text-align: center;
+}
+
+.navLink {
+  text-transform: uppercase;
+  font-family: inherit;
+  color: #fff;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 25px;
+  transition: all 0.2s ease-in-out;
+}
+
+.navLink:hover {
+  cursor: pointer;
+  color: #d87d4a;
+}
