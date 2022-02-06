@@ -5,8 +5,12 @@ import speakersImg from "../assets/shared/desktop/image-category-thumbnail-speak
 import earphonesImg from "../assets/shared/desktop/image-category-thumbnail-earphones.png";
 
 const MenuBox = () => {
+  const menuBoxClickHandler = (e: any) => {
+    e.stopPropagation();
+  };
+
   return (
-    <section className={styles.menuBox}>
+    <section className={styles.menuBox} onClick={menuBoxClickHandler}>
       <MenuItem categoryTitle="Headphones" categoryImgSrc={headphonesImg} />
       <MenuItem categoryTitle="Speakers" categoryImgSrc={speakersImg} />
       <MenuItem categoryTitle="Earphones" categoryImgSrc={earphonesImg} />

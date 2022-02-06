@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "../styles/HomePage.module.css";
 import Featured from "./Featured";
 import MenuBox from "./MenuBox";

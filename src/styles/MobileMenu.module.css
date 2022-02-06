@@ -1,0 +1,18 @@
+.outerModalBox {
+  position: fixed;
+  top: 82px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 100;
+}
+
+.modalBox {
+  border-radius: 0 0 8px 8px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  position: fixed;
+  z-index: 100;
+}
