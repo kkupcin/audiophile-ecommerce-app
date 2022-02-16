@@ -1,0 +1,23 @@
+.headerTitleBox {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 36px 0;
+}
+
+.headerTitle {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 28px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.itemList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 0;
+  gap: 100px;
+}

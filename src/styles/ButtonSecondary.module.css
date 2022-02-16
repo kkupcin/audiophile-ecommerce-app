@@ -19,6 +19,16 @@
   transition: all 0.2s ease-in-out;
 }
 
+.buttonBack {
+  background: transparent;
+  border: none;
+  color: #000;
+  opacity: 0.5;
+  font-weight: 700;
+  font-size: 13px;
+  font-family: inherit;
+}
+
 .button:hover {
   color: #d87d4a;
   cursor: pointer;

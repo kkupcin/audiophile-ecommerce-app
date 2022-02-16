@@ -1,0 +1,163 @@
+.buttonBox {
+  width: 85%;
+  margin: 24px auto;
+}
+
+.productContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 24px;
+  width: 85%;
+}
+
+.productImg {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.newTag {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: #d87d4a;
+}
+
+.productTitle {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 1px;
+}
+
+.productDesc {
+  line-height: 25px;
+  font-weight: 500;
+  opacity: 0.5;
+  font-size: 15px;
+}
+
+.productPrice {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+}
+
+.cartOptions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.counter {
+  width: 120px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 12px 0;
+}
+
+.counter button {
+  font-family: inherit;
+  background: transparent;
+  border: none;
+  opacity: 0.25px;
+  font-size: 13px;
+  font-weight: 700;
+  transition: all 0.1s ease-in-out;
+}
+
+.counter button:hover {
+  color: #d87d4a;
+  cursor: pointer;
+}
+
+.counter span {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.productSection {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 36px 0;
+}
+
+.sectionTitle {
+  font-size: 24px;
+  letter-spacing: 0.86px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sectionText {
+  opacity: 0.5;
+  line-height: 25px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.featureList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 15px;
+}
+
+.featureList li {
+  line-height: 25px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.featureList li span {
+  color: #d87d4a;
+  font-weight: 700;
+  display: inline-block;
+  width: 36px;
+}
+
+.productGallery {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.productGallery img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.relatedBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 52px;
+  margin: 48px 0;
+}
+
+.relatedItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.relatedImg {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.relatedTitle {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.86px;
+  line-height: 36px;
+}

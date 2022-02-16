@@ -1,0 +1,37 @@
+.itemBox {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.itemImg {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.newTag {
+  color: #d87d4a;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 10px;
+}
+
+.itemTitle {
+  text-transform: uppercase;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+.itemDesc {
+  font-size: 15px;
+  text-align: center;
+  line-height: 25px;
+  opacity: 0.5;
+  font-weight: 500;
+}

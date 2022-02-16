@@ -17,8 +17,8 @@ const Header = (props: any) => {
     <React.Fragment>
       <header className={styles.mainHeader}>
         <menu className={styles.mainHeaderText}>
-          <button className={styles.hamburgerBtn}>
-            <img src={hamburger} alt="Menu icon" onClick={menuHandler}></img>
+          <button className={styles.hamburgerBtn} onClick={menuHandler}>
+            <img src={hamburger} alt="Menu icon"></img>
           </button>
           <img
             src={logo}
